@@ -1,8 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main()
-{
-    printf("Hello world!\n");
+int addition(int a, int b){
+    return a+b;
+}
+
+int main(){
+    printf("4+7 = %d\n", addition(4, 7));
     return 0;
 }
