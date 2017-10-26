@@ -6,6 +6,6 @@ int addition(int a, int b){
 }
 
 int main(){
-    printf("4+7 = %d\n", addition(4, 7));
+    printf("addition : 4+7 = %d\n", addition(4, 7));
     return 0;
 }
